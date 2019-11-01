@@ -1,0 +1,134 @@
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Chivo', sans-serif; */
+
+/* ------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------ */
+
+
+
+html {
+
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: relative;    
+  min-height: 100%;
+  
+    
+}
+
+body {
+  font-family: 'Chivo', sans-serif;   
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff;
+  min-height: 100%;     
+}
+
+/* ------------------------------ */
+/* REUSABLE COMPONENETS */
+/* ------------------------------ */
+
+
+h1
+
+h2
+
+h3
+
+h4
+
+h5 {
+    font-weight: 300 !important;
+}
+
+h6
+
+p
+
+a {
+   color: rgba(0, 0, 0, 0.5) !important;    
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}
+
+.nav-link,
+.footer-link {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.active,
+.nav-link:hover,
+.footer-link:hover {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.fab,
+.fas {
+    font-size: 1.4rem;
+}
+
+/* ------------------------------ */
+/* HEADER */
+/* ------------------------------ */
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.brand {
+    font-family: 'Chivo', sans-serif; 
+    font-weight: 500;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none !important;
+}
+
+
+@media (max-width: 576px) {
+   .simonbogdanov{
+    font-size: 2rem;
+}
+
+}
+
+@media (max-width: 375px) {
+   .simonbogdanov{
+    font-size: 1.4rem;
+} 
+
+}
+
+/* ------------------------------ */
+/* FOOTER */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* INDEX.HTML */
+/* ------------------------------ */
+
+
+
+
+/* ------------------------------ */
+/* ABOUT.HTML */
+/* ------------------------------ */
+
+#about {
+    font-weight: 400 !important;
+    margin-bottom: 100px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
